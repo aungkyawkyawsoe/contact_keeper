@@ -1,10 +1,18 @@
 import React from 'react';
+import Contacts from "../contacts/Contacts";
+import ContactForm from "../contacts/ContactForm";
+import ContactFilter from "../contacts/ContactFilter";
 
 function Home(props) {
     return (
-        <div>
-            <h1>Home</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cum, cupiditate distinctio, ea exercitationem iste iusto laudantium minus porro quas quasi quidem quis quisquam quod reiciendis reprehenderit sequi similique ut!</p>
+        <div className='grid-2'>
+            <div>
+                <ContactForm/>
+            </div>
+            <div>
+                <ContactFilter/>
+                <Contacts/>
+            </div>
         </div>
     );
 }

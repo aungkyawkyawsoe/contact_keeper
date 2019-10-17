@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Pattaya&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
 
 /* Global Styles */
 :root {
-  --primary-color: #3B4161;
+  --primary-color: #0B9482;
   --dark-color: #333333;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
-  --success-color: #28a745;
+  --success-color: #236cc2;
+}
+
+input {
+  font-family: Bitter, serif;
+}
+
+
+.brand{
+  font-family: 'Pattaya', serif;
 }
 
 * {
@@ -245,6 +255,7 @@ img {
 .alert-light {
   background: var(--light-color);
   color: #333;
+  border: 1px solid #dddddddd;
 }
 
 .btn-dark,
@@ -385,6 +396,7 @@ table th {
 }
 
 /* Animation (Add After) */
+
 .item-enter {
   opacity: 0;
 }

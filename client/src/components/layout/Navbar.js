@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 function Navbar({ title, icon }) {
     return (
         <div className='navbar bg-primary'>
-            <h3>
+            <h2 className='brand'>
                 <Link to='/'>
-                    <i className={icon}/> { title }
+                    <i className={ icon }/> { title }
                 </Link>
-            </h3>
+            </h2>
             <ul>
                 <li>
                     <Link to='/'>Home</Link>

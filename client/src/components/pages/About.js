@@ -7,9 +7,9 @@ function About(props) {
             <p className="my-1">
                 This is a full stack React app for keeping contacts
             </p>
-            <div className="bg-dark p">
-                Version: 1.0.0
-            </div>
+            <small className="p">
+                &copy; CopyRight { new Date().getFullYear() } <br/>
+            </small>
         </div>
     );
 }
