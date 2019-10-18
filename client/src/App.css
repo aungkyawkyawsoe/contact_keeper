@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Pattaya&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Pattaya&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');*/
 
 /* Global Styles */
 :root {
@@ -11,12 +11,12 @@
 }
 
 input {
-  font-family: Bitter, serif;
+  font-family: Roboto, serif;
 }
 
 
 .brand{
-  font-family: 'Pattaya', serif;
+  font-family: 'Roboto', serif;
 }
 
 * {
@@ -26,7 +26,7 @@ input {
 }
 
 body {
-  font-family: 'Bitter', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;

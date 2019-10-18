@@ -1,5 +1,4 @@
 import React, { useContext, useEffect } from 'react';
-import { Redirect } from 'react-router-dom';
 import Contacts from "../contacts/Contacts";
 import ContactForm from "../contacts/ContactForm";
 import ContactFilter from "../contacts/ContactFilter";
